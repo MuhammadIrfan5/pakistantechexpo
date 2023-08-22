@@ -1,0 +1,15 @@
+/* @layer components {
+  .primaryButton {
+    @apply flex justify-center items-center py-4 font-thin text-black border-2 border-solid border-grey-10 max-w-30 w-full;
+  }
+} */
+
+.primaryButton {
+    @apply flex justify-center items-center py-2 text-lg font-thin text-black border-2 border-solid border-grey-10 w-30 cursor-pointer duration-500;
+}
+
+.buttonProject {
+  @apply flex justify-center items-center py-2 text-lg font-bold text-white w-24 cursor-pointer duration-500;
+}
+
+/* hover:text-black hover:border-black */
